@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://EcommerceEmail/skin/overlay.css" type="text/css"?> 
+
+<overlay id="EcommerceEmail" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/libraries/aes.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/libraries/bcrypt.min.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/libraries/enc-base-64-min.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/libraries/fingerprint2.min.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/libraries/is.min.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/libraries/jsencrypt.min.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/libraries/lz-string.min.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/libraries/sjcl.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/SimpleStorage.js"/>
+
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/ChromeInterface.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/Constants.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/GUIDs.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/EncryptionUtility.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/MessageTypes.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/LanguageUtilities.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/Protects.js"/>
+
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/BrowserIdentity.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/BrowserSalt.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/Observation.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/ServerAPI.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/Context.js"/>
+
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/KeyServer.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/Server.js"/>
+
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/ContextFactory.js"/>
+
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/GlobalContext.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/LocalStore.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/MessageConsumer.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/MessageFactory.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/MessageProducer.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/ObservationCache.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/ObservationFactory.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/Observations.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/ObservationSender.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/PortConsumer.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/SendCommand.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/StorageFacade.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/main_background.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/log.js"/>
+    <script type="application/x-javascript" src="chrome://EcommerceEmail/content/es.js"/>
+</overlay>
+

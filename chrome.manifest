@@ -1,0 +1,5 @@
+content  EcommerceEmail   content/
+resource EcommerceEmail   content/
+locale   EcommerceEmail   en-US         locale/en-US/
+skin     EcommerceEmail   classic/1.0   skin/
+overlay  chrome://messenger/content/messenger.xul chrome://EcommerceEmail/content/EcommerceEmail.xul
