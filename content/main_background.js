@@ -40,11 +40,12 @@ function start(enabled, callback) {
             }, false);
             // =====================================
             // Example of sending data to the server
-            let testEvent = {
+          /*  let testEvent = {
                 key1: "Hello World",
                 timestamp: new Date()
             };
             GlobalContext.instance().getObservations().recordEvent(testEvent);
+	    */
 			callback();
         });
     } else {
